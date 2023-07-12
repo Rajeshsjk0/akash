@@ -1,0 +1,32 @@
+[
+  {
+    "type": "existing",
+    "reference": "REF123",
+    "customerNumber": "CUST001",
+    "customerName": "John Doe",
+    "customerAddress": "123 Main Street",
+    "phoneNumber": "555-1234",
+    "transferAmount": "",
+    "transferCurrency": "",
+    "beneficiaryBank": "",
+    "beneficiaryAccountNumber": "",
+    "paymentDetails": "",
+    "cardDetails": "",
+    "region": "Port Louis"
+  },
+  {
+    "type": "new",
+    "reference": "REF456",
+    "customerNumber": "CUST002",
+    "customerName": "Jane Smith",
+    "customerAddress": "456 Elm Street",
+    "phoneNumber": "555-5678",
+    "transferAmount": "",
+    "transferCurrency": "",
+    "beneficiaryBank": "",
+    "beneficiaryAccountNumber": "",
+    "paymentDetails": "",
+    "cardDetails": "",
+    "region": "Curepipe"
+  }
+]

@@ -1,0 +1,36 @@
+.appBar {
+  position: relative;
+  @media screen and (max-width: 480px) {
+    width: calc(100% - 240px);
+    margin-left: 240;
+  }
+}
+.menuButton {
+  margin-right: 16px;
+  @media screen and (max-width: 480px) {
+    display: "none";
+  }
+}
+.title {
+  flex-grow: 1;
+}
+.drawer {
+  width: 240;
+  flex-shrink: 0;
+}
+.drawerPaper {
+  width: 240;
+}
+.drawerHeader {
+  display: "flex";
+  align-items: center;
+  padding: 0 8px;
+  justify-content: flex-end;
+}
+header {
+  display: block;
+}
+.container {
+  position: relative;
+  z-index: 1;
+}
